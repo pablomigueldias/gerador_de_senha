@@ -1,6 +1,6 @@
 # Gerador de Senhas
 
-![Status](https://img.shields.io/badge/status-active-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![Version](https://img.shields.io/badge/version-1.0.0-orange)
+
 
 Este projeto é um **Gerador de Senhas** dinâmico e personalizável. Ele oferece aos usuários a capacidade de gerar senhas seguras de até 25 caracteres, com a possibilidade de incluir apenas letras, números e/ou símbolos. A interface é simples e direta, garantindo facilidade de uso para quem deseja gerar uma senha rápida e segura.
 
