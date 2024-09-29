@@ -18,7 +18,6 @@ As principais tecnologias utilizadas neste projeto são:
 - **Definir o comprimento da senha**: O usuário pode escolher até 25 caracteres.
 - **Selecionar tipos de caracteres**: Letras, números e/ou símbolos para compor a senha.
 - **Botão de "Copiar"**: Copie a senha gerada com um clique.
-- **Interface intuitiva e responsiva**: Funciona bem em dispositivos móveis e desktops.
 
 ## 🌐 Acesso ao Projeto Online
 
