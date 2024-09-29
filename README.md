@@ -1,4 +1,4 @@
-# Gerador de Senhas
+# 🔐 Gerador de Senhas
 
 
 
@@ -15,9 +15,18 @@ As principais tecnologias utilizadas neste projeto são:
 
 ## 🛠️ Funcionalidades
 
-- **Definir o comprimento da senha**: O usuário pode escolher até 25 caracteres.
-- **Selecionar tipos de caracteres**: Letras, números e/ou símbolos para compor a senha.
-- **Botão de "Copiar"**: Copie a senha gerada com um clique.
+- ✍️ **Comprimento personalizável**: Escolha o número de caracteres da senha, até 25 caracteres.
+- 🔢 **Opção de caracteres**: Selecione se deseja incluir **letras**, **números** ou **símbolos** na senha gerada.
+- 📋 **Botão de copiar**: Copie a senha gerada para a área de transferência com um único clique.
+- 🖥️ **Interface simples**: Um formulário intuitivo para facilitar a geração da senha.
+
+## 📝 Como usar
+
+1. Escolha o comprimento da senha utilizando o campo de seleção.
+2. Marque as opções para incluir **letras**, **números** ou **símbolos** na senha gerada.
+3. Clique no botão **Gerar senha** para gerar uma nova senha com base nas suas preferências.
+4. Se desejar, clique no botão **Copiar senha** para copiar a senha gerada para a área de transferência.
+
 
 ## 🌐 Acesso ao Projeto Online
 
