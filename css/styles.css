@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(180deg, #03080e 0%, #f76018 40%, #e5922a 100%);
+}
+
+.container {
+  display: flex;
+  width: 1050px;
+  box-shadow: #03080e 10px 10px 10px;
+  border-radius: 20px;
+}
+.area-apresentacao {
+  background-image: url(../img/illustrated-rendering-twin-avatar.jpg);
+  background-size: cover;
+  background-position: left;
+  display: flex;
+  width: 50%;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.formulario {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  background-color: #fdfdfd;
+  border-radius: 0px 20px 20px 0px;
+}
+.formulario .botao-form {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.botao-form button {
+  padding: 20px;
+  color: #03080e;
+  font-size: 14px;
+  border-radius: 15px;
+  border: none;
+  background-color: #e5922a;
+  margin-right: 25px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.botao-form button:hover {
+  background-color: #f76018;
+  color: #000;
+}
+
+.usuario-form {
+  padding-top: 30px;
+}
+.usuario-form input {
+  padding: 10px;
+  margin-top: 4px;
+  width: 100%;
+  border: none;
+  border-radius: 15px;
+  border-bottom: 1px solid #f76018;
+  outline: none;
+}
+.usuario-form label {
+  color: #03080e;
+}
+
+.gerador-de-senha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
+.gerador-de-senha p {
+  font-size: 15px;
+  margin: 10px 0px 10px 0px;
+}
+.senha-gerada {
+  box-sizing: border-box;
+  border: 1px solid #f76018;
+  width: 330px;
+  padding: 15px;
+  margin-top: 20px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.senha-gerada h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.botao-copiar button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 120px;
+  border-radius: 10px;
+  border: none;
+  background-color: #e5922a;
+  transition: 0.3s;
+}
+.botao-copiar button:hover {
+  background-color: #f76018;
+  color: #000;
+}
+span {
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+span:hover {
+  color: #e5922a;
+}
+.opcao-senha {
+  display: flex;
+  gap: 1;
+  justify-content: center;
+  flex-direction: column;
+}
+.check-opcao {
+  margin: 5px 0px 10px 0px;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  background-color: #fdfdfd;
+  border-radius: 0px 20px 20px 0px;
+}
+.check-opcao input {
+  border: none;
+  border-radius: 20px;
+  border-bottom: 1px solid #e5922a;
+  text-align: center;
+}
+.opcao-senha p {
+  font-weight: bold;
+  line-height: 5px;
+}
+.opcao-senha button {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #e5922a;
+  transition: 0.3s;
+}
+.opcao-senha button:hover {
+  background-color: #f76018;
+  color: #000;
+}
+.hide {
+  display: none;
+}

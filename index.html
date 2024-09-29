@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="./img/senha.png" />
+    <script src="./js/scripts.js" defer></script>
+    <title>Gerador de Senha</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="area-apresentacao"></div>
+      <div class="formulario">
+        <form>
+          <div class="usuario-form">
+            <label for="">Nome:</label>
+            <input
+              type="text"
+              name="nome"
+              id="nome"
+              placeholder="Digite seu nome !"
+            />
+          </div>
+          <div class="usuario-form">
+            <label for="">E-mail</label>
+            <input
+              type="email"
+              type="email"
+              id="email"
+              autocomplete="username"
+              placeholder="Digite seu e-mail !"
+            />
+          </div>
+          <div class="usuario-form">
+            <label for="">Senha:</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Digite sua senha !"
+              autocomplete="current-password"
+            />
+          </div>
+          <div class="gerador-de-senha">
+            <p>
+              Quer ajuda para criar uma senha segura?
+              <span class="abrir-gerar-senha">Clique aqui !</span>
+            </p>
+            <div class="opcao-senha hide">
+              <p>Maximo de caracteres são : 25</p>
+              <div class="check-opcao">
+                <label for="caracteres"> Quantidade de caracteres: </label>
+                <input
+                  type="text"
+                  id="caracteres"
+                  name="caracteres"
+                  value="10"
+                />
+              </div>
+              <div class="check-opcao">
+                <label for="letras"> Letras </label>
+                <input type="checkbox" id="letras" name="letras" checked />
+              </div>
+              <div class="check-opcao">
+                <label for="numeros"> Numeros </label>
+                <input type="checkbox" id="numeros" name="numeros" checked />
+              </div>
+              <div class="check-opcao">
+                <label for="simbolos"> Simbolos </label>
+                <input type="checkbox" id="simbolos" name="simbolos" checked />
+              </div>
+
+              <button class="gerar-senha">Gerar aqui!</button>
+            </div>
+            <div class="senha-gerada">
+              <div class="container-senha">
+                <h4>kasksagdyhasdkasd</h4>
+              </div>
+              <div class="botao-copiar">
+                <button>Copiar</button>
+              </div>
+            </div>
+          </div>
+          <div class="usuario-form">
+            <label for="">Confirmação de senha:</label>
+            <input
+              type="password"
+              id="confirmacao-senha"
+              autocomplete="new-password"
+              placeholder="Confirme sua senha !"
+            />
+          </div>
+          <div class="botao-form">
+            <button>Cadastrar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
